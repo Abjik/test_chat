@@ -5,9 +5,14 @@ body{
     background: #CCCCCC;    
 }
 
+.maincon{
+    width: 100%;
+    height: auto;
+}
+
 .title{
     width: 50%;
-    padding: 5%;
+    padding: 15%;
 }
 
 .title h1{
@@ -27,4 +32,8 @@ body{
 .image{
     width: 50%;
     float: right;
+}
+
+.image img{
+    height: 70%;
 }
