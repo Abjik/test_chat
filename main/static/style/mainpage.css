@@ -2,33 +2,37 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 body{
-    background: #CCCCCC;    
+    background: #EBEBEB;  
 }
 
 .container{
     width: 100%;
     height: auto;
-    padding: 15%;
+    /* padding: 15%; */
 }
 
 .title{ 
-    width: 50%;
+    position: fixed;
+    left: 10%;
+    top: 35%;
+    width: 40%;
+    height: 413px;
+    flex-shrink: 0;
 }
 
 .title h1{
-    color: #000;
+    color: #52489C;
     font-family: 'Paytone One';
-    font-size: 3.125rem;
+    font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
 }
 
 .title h3{
-    color: #000;
-    font-family: sans-serif;
-    font-size: 2rem;
+    color: #52489C;
+    font-family: 'DM Sans';
+    font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -40,19 +44,27 @@ body{
 }
 
 .image img{
-    height: 70%;
+    position: fixed;
+    right: 7%;
+    top: 30%;
+    flex-shrink: 0;
 }
 
 .container button{
+    position: fixed;
+    top: 60%;
+    left: 10%;
+    width: 13%;
+    min-height: 3rem;
+    border-radius: 20px;
+    border: 0;
+    background: #59C3C3;
     color: white;
-    background-color: #A22CFF;
-    width: 13.625rem;
-    height: 3.1875rem;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: sans-serif;
-    font-size: 1.5625rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-size: 1.25rem;
+}
+
+.container button:hover{
+    background-color: #CAD2C5;
+    color: black;
+    transition: 500ms;
 }
