@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+    background: #EBEBEB;  
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    /* padding: 15%; */
+}
+
+.title{ 
+    position: fixed;
+    left: 10%;
+    top: 35%;
+    width: 40%;
+    height: 413px;
+    flex-shrink: 0;
+}
+
+.title h1{
+    color: #52489C;
+    font-family: 'Paytone One';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title h3{
+    color: #52489C;
+    font-family: 'DM Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.image{
+    width: 50%;
+    float: right;
+}
+
+.image img{
+    position: fixed;
+    right: 7%;
+    top: 30%;
+    flex-shrink: 0;
+}
+
+.container button{
+    position: fixed;
+    top: 60%;
+    left: 10%;
+    width: 13%;
+    min-height: 3rem;
+    border-radius: 20px;
+    border: 0;
+    background: #59C3C3;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.container button:hover{
+    background-color: #CAD2C5;
+    color: black;
+    transition: 500ms;
+}
