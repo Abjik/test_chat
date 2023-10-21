@@ -1,10 +1,42 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Home Page</title>
+  <link rel="stylesheet" href="{% static 'style/mainpage.css' %}">
+  <link rel="stylesheet" href="{% static 'style/navbar.css' %}">
+  <!-- <link rel="stylesheet" href="{% static 'style/mainpage.css' %}"> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Pay" rel="stylesheet"> -->
 </head>
 <body>
-    <h1 style="text-align: center;">Home Page</h1>
+
+  <!-- Начало Навигации -->
+  <nav>
+    <div class="navbar">
+      <a href="login/"><img src="{% static 'image/account.svg' %}" alt="Account"></a>
+      <a href="#"><img src="{% static 'image/chat.svg' %}" alt="Chat"></a>
+      <a href="#"><img src="{% static 'image/home.svg' %}" alt="Home"></a>
+      <a href="https://github.com/Abjik/test_chat"><img src="{% static 'image/news.svg' %}" alt="News"></a>
+    </div>
+  </nav>
+  <!-- Конец навигации -->
+
+  <!-- Главная -->
+  <div class="container">
+    <div class="title">
+      <h1>CHAT BASED ON YOUR
+      <br>INTERESTS</h1> 
+      <h3>Artificial intelligence, can support your anonymous dialogue and help you with mental trauma</h3>
+    </div>
+    
+    <div class="image">
+      <img src="{% static 'image/phone.svg' %}" alt="">
+    </div>
+
+    <button>TRY IT!</button>
+  </div>
+  
+
 </body>
 </html>
